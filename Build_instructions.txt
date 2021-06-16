@@ -1,0 +1,31 @@
+Build Steps:
+
+
+Prerequisite:
+1. JDK 1.8 version to be installed in your system
+
+
+If you want to execute the jar already created follow the below steps
+
+Prerequisite:
+JDK 1.8 version to be installed in your system
+
+1. Clone the project from github and check out the code.
+2. From command prompt ->go to target directory path -> execte the jar from command prompt providing the argument event id as below
+>java -jar realtimeodd-0.0.1-SNAPSHOT.jar <event-id>
+
+If you want to create the jar and then execute follow the below steps:
+
+Prerequisite:
+1. JDK 1.8 version to be installed in your system
+2. Any IDE (I used Eclipse IDE for Enterprise Java Developers with Version: 2019-06 (4.12.0)
+
+Steps:
+
+1. Clone the project from github and check out the code.
+2. Open your IDE (I used Eclipse IDE for Enterprise Java Developers with Version: 2019-06 (4.12.0))
+3. Import the project (Go to file -> select ->import -> Existing Maven Projects -> select  Maven project -> Finish)
+4. Do maven clean
+5. Do maven install then you can see the jar created.
+6. Now from command prompt -> go to target directory path -> execute the jar from command prompt providing the argument event id as below
+>java -jar <jar_name> <event_id>
